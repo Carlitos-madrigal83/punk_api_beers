@@ -1,0 +1,38 @@
+/*****************************
+**********  BODY  ************
+*****************************/
+
+* {
+    margin: 0;
+    padding-top: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    background-image: url("../assets/cervezas_del_mundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 65px;
+    color: rgb(158, 130, 5);
+}
+
+#menu-nav {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    list-style: none;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
