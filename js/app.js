@@ -10,7 +10,7 @@ const createDiv = function(element) {
     <img id="img-beer" src="${element.image_url}" alt="otherBeer" />
     <h2 class="beer-name">${element.name}</h2>
     <p class="description-beer">${element.description}</p>
-    <a href="detalle-cerveza.html">More info</a>
+    <a href="detalle-cerveza.html?id=${element.id}">More info</a>
   </div>`
 }
 
@@ -22,6 +22,7 @@ const cervezas = fetch("https://api.punkapi.com/v2/beers")
         return response.json()
     }).then(function(beer) {
         beer.forEach(element => {
+            console.log(element)
             const node = document.getElementById("beers")
             node.innerHTML += createDiv(element)
         });
