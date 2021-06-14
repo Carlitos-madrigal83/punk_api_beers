@@ -47,3 +47,21 @@ header {
     display: inline-block;
     align-items: center;
 }
+
+.container-two {
+    display: inline-block;
+    align-items: center;
+    font-size: medium;
+    justify-content: center;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#mapid {
+    display: inline-block;
+    align-items: center;
+}
