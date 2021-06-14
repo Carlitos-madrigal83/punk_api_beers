@@ -5,42 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia de la Cerveza</title>
-    <link rel="stylesheet" href="../css/beer-random.css">
+    <title>Detalle de la Cerveza</title>
+    <link rel="stylesheet" href="../css/index.css">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 </head>
 
 <body>
-    <div class="hero">
-        <h1><a href="../index.html">Amantes de la cerveza</a></h1>
+    <header>
+        <img src="../assets/beer-principal.jpg" alt="beer-principal" width="75px">
+        <a href="../index.html">Amantes de la cerveza</a>
+        <img src="../assets/beer-principal.jpg" alt="beer-principal" width="75px">
+    </header>
+    <div>
         <nav>
-            <ul>
-                <li>
-                    <img src="../assets/cervezas_del_mundo.png" alt="cervezas_del_mundo" id="menu-nav">
-                    <a href="cervezas_del_mundo.html">
-                        <h3>Cervezas del mundo</h3>
-                    </a>
-                </li>
-                <li>
-                    <img src="../assets/birra.jpg" alt="historia_de_la_cerveza" id="menu-nav">
-                    <a href="historia_de_la_cerveza.html">
-                        <h3>Historia de la cerveza</h3>
-                    </a>
-                </li>
-                <li>
-                    <img src="../assets/beer.png" alt="beerRandom" id="menu-nav">
-                    <a href="beerRandom.html">
-                        <h3 class="random-beer"></h3>>Beer Random</h3>
-                    </a>
-                </li>
-            </ul>
+            <div>
+                <img src="../assets/cervezas_del_mundo.png" alt="cervezas_del_mundo" id="menu-nav">
+                <a href="../html/cervezas_del_mundo.html">
+                    <h3>Cervezas del mundo</h3>
+                </a>
+            </div>
+            <div>
+                <img src="../assets/birra.jpg" alt="birra" id="menu-nav">
+                <a href="../html/historia_de_la_cerveza.html">
+                    <h3>Historia de la cerveza</h3>
+                </a>
+            </div>
+            <div>
+                <img src="../assets/beer.png" alt="birra" id="menu-nav">
+                <a href="../html/beerRandom.html">
+                    <h3>Beer Random</h3>
+                </a>
+            </div>
         </nav>
-        <div id="container">
+    </div>
+    <div id="container">
 
-        </div>
-        <div id="mapid" style="height: 1000px;"></div>
-        <script src="../js/detalleCerveza.js"></script>
+    </div>
+    <div id="mapid" style="height: 1000px;"></div>
+    <script src="../js/detalleCerveza.js"></script>
 </body>
 
 </html>
